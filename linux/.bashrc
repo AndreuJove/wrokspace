@@ -1,22 +1,12 @@
-HISTCONTROL=ignoreboth
-
- 
-
-shopt -s histappend
-
- 
-
 # Customizations Andreu:
 
  
-
 HISTSIZE=5000000
-
+HISTCONTROL=ignoreboth
+shopt -s histappend
 HISTFILESIZE=10000000
 
- 
-
-# kubernetes:
+## kubernetes:
 
 alias k='kubectl'
 alias kg='kubectl get'
